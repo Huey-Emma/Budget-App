@@ -1,0 +1,51 @@
+.expense-heading {
+    display: flex;
+    align-items: center;
+}
+
+.expense-heading h3 {
+    text-transform: capitalize;
+}
+
+.expense-heading button {
+    margin-left: 2em;
+    border: 2.5px solid #fd9090;
+}
+
+.expense-heading button:hover {
+    background-color: antiquewhite;
+}
+
+.expense-amount {
+    font-weight: bold;
+}
+
+.delete-expense__icon {
+    font-size: 1.2rem;
+    margin-left: 0.5em;
+    transition: 0.3s color ease-in-out;
+}
+
+.delete-expense__icon:hover {
+    cursor: pointer;
+    color: #e66f6f;
+}
+
+.delete-expense__icon:active {
+    transform: translate(0, 1px);
+}
+
+.expense-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expense-item section {
+    display: flex;
+    align-items: center;
+}
+
+.expense-items {
+    padding: 0 1.5em;
+}

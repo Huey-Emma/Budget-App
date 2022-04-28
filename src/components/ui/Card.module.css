@@ -1,0 +1,17 @@
+.card {
+    box-shadow: 1px 2px 8px -1.5px rgba(17, 16, 16, 0.4);
+    padding: 1em;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    animation: show 0.3s linear;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

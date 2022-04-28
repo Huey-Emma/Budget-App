@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+    margin-bottom: 3em;
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    color: #1a1a2c;
+}
+
+.alt-btn {
+    min-width: 15em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alt-btn button {
+    border: 3px solid #313157;
+}
+
+.alt-btn button:first-child {
+    background-color: #313157;
+    color: #fff;
+}
+
+.alt-btn button:first-child:hover {
+    background-color: #1a1a2c;
+    border-color: #1a1a2c;
+}
+
+.alt-btn button:nth-child(2) {
+    margin-left: 0.8em;
+}
+
+.alt-btn button:nth-child(2):hover {
+    background-color: #fcf4ea;
+}

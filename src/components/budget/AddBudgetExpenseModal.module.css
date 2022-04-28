@@ -1,0 +1,41 @@
+.form-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.form-wrapper h2 {
+    color: #1a1a2c;
+    text-align: center;
+}
+
+.form-group {
+    margin: 1em 0;
+}
+
+.form-group input[type='text'],
+.form-group input[type='number'],
+.form-group select {
+    padding: 0.5em;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.form-group select:hover {
+    cursor: pointer;
+}
+
+.form-group:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2em;
+}
+
+.form-group button {
+    border: 3px solid #313157;
+    background-color: #313157;
+    color: #fff;
+}
+
+.form-group button:hover {
+    background-color: #1a1a2c;
+}
